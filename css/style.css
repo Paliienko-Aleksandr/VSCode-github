@@ -1,9 +1,9 @@
 main {
   font-size: 24px;
 }
-p{
+.text{
   color:green;
 }
-li{
+.list{
   color: orange;
 }
