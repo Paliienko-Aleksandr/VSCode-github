@@ -9,24 +9,27 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1 class="page-header">Basic Selectors</h1>
-
-    <article>
-      <h2 class="page-header">Базовыми селекторами являются:</h2>
-      <ul>
-        <li>Селектор элемента</li>
-        <li id="best">Селектор класса</li>
-        <li>Селектор id</li>
-        <li>Универсальный селектор *</li>
-      </ul>
-    </article>
-
-    <article>
-      <h2 class="page-header">Селекторы</h2>
+  <header>
+    <h1>Селекторы атрибутов</h1>
+  </header>
+  <main>
+    <p data-description="attributes">
+      Атрибуты используются, чтобы асоциировать некоторы данные с определенным элементом
+    </p>
+    <p data-description="anchors">
+      Ссылки используются в HTML документах для переходов на другие страницы
+      <a href="#">того же</a> или
+      <a target="_blank" href="https://www.wikipedia.org/">других</a> вебсайтов
+    </p>
+    <div>
       <p>
-        Используются для того, чтобы удобно выбирать нужные элементы страницы и задавать им
-        определенные стили
+        Инпуты могут могут принимать не только текстовые данные от пользователя, а и выступать в
+        роли чекбоксов и многих других элементов
       </p>
-    </article>
+      <input type="text" />
+      <input type="checkbox" />
+      <input type="password" />
+    </div>
+  </main>
 </body>
 </html>
