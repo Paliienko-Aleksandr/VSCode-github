@@ -16,6 +16,6 @@ article.new{
 li.new{
   background-color: red;
 }
-.new, .posted-today{
-  border-bottom: 1px solid pink;
+.new.posted-today{
+ background-color: pink;
 }
