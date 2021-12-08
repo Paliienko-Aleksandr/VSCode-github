@@ -1,12 +1,12 @@
-[data-description="anchors"]{
-  background-color: grey;
+li{
+  margin-bottom: 16px;
 }
-[data-description]{
-  font-size: 24px;
+a[href][target="_blank"]{
+border: 2px solid black;
 }
-[href][target]{
-  color: green
+a[href^="broken"]{
+  border: 2px solid red;
 }
-input[type="text"]{
-  background-color: orange;
+a[href$=".com"]{
+  margin-left: 50px;
 }
