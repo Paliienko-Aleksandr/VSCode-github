@@ -1,20 +1,12 @@
-header{
+super-important.highlighted {
   background-color: red;
-  height: 100px;
 }
-h1{
+.highlighted,company-data{
+  color: yellow;
+}
+li.user-data{
   font-size: 24px;
-  color: white;
 }
-main{
-  background-color: blue;
-  font-size: 18px;
-  color: white;
-  height: 300px;
-}
-footer{
-  background-color: green;
-  font-size: 18px;
-  height: 100px;
-  color: white;
+span.user-data{
+  font-size: 10px;
 }
