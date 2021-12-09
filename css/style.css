@@ -19,3 +19,6 @@ a[href*="www"]{
 [title*="popular"]{
   font-size: 24px;
 }
+[lang |="en"]{
+  font-size: 10px;
+}
