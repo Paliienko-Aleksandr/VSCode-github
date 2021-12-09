@@ -22,3 +22,6 @@ a[href*="www"]{
 [lang |="en"]{
   font-size: 10px;
 }
+a[href*="opera"]{
+  font-size: 24px;
+}
