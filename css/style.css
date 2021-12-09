@@ -3,9 +3,11 @@ li{
 }
 a[href][target="_blank"]{
 border: 2px solid black;
+font-size: 23px;
 }
 a[href^="broken"]{
   border: 2px solid red;
+  
 }
 a[href$=".com"]{
   margin-left: 50px;
