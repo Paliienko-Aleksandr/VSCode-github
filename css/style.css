@@ -1,8 +1,26 @@
-.text{
-  box-sizing: content-box;
-  height: 100%;
-  border: 3px solid black;
+
+.first{
+  box-sizing: border-box;
+  margin: 50px;
   padding: 50px;
-  background-color: aqua;
-  margin-bottom: 50px;
+  background-color: blue;
+  border: 2px solid black;
+}
+.second{
+  box-sizing: border-box;
+  background-color: yellow; 
+  border: 2px solid black;
+  padding: 50px;
+}
+ .third{
+  box-sizing: border-box;
+  background-color:green;
+  border: 2px solid black;
+  padding: 50px;
+} 
+.four{
+  box-sizing: border-box;
+  background-color:pink;
+  border: 2px solid black;
+  padding: 50px;
 }
