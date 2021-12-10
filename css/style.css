@@ -1,12 +1,15 @@
-a:link{
+.anchor:link{
   background-color: black;
   color: white;
 }
-a:visited{
+.anchor:visited{
   background-color: orange;
   color: green;
 }
-.anchor, .some-button:enabled:active{
+.anchor:active {
+  border: 3px solid red;
+} 
+.some-button:enabled:active{
   border: 3px solid red;
 }
 .anchor:hover{
