@@ -1,24 +1,58 @@
-.header, .footer{
-  height: 50px;
-}
 .header{
-  background-color: yellow;
+  background-color: darkturquoise;
+  height: 40px;
 }
-.footer{
-  background-color: green;
+.navigation{
+  position: absolute;
+  height: 40px;
+}
+.nav-list{
+  position: relative;
+  bottom: 8px;
+  color: white;
+}
+li{
+  margin-left: 16px;
+  display: inline; 
 }
 .content{
-  width: 80%;
-  background-color: pink;
-  height: 500px;
-  float: left;
+  background-color: beige;
+  height: 5000px;
 }
-.sidebar{
-  width: 20%;
+.head{
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  position: relative;
+  left: 50%;
+  top:10%;
+}
+.ear{
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  background-color: brown;
+}
+.ear_right{
+  top: -60px;
+  left: -40px;
+}
+.ear_left{
+ right: -40px;
+ top: -60px;
+}
+.eye{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
   background-color: grey;
-  height: 500px;
-  float: right;
+  top: 80px;
+  display: inline-block;
 }
-.footer{
-  clear: both;
+.eye_right{
+  left: 40px;
+}
+.eye_left{
+  right: 40px;
 }
