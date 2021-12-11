@@ -1,37 +1,30 @@
-*{
-  box-sizing: border-box;
-}
-
-.square {
-  width: 100px;
-  height: 100px;
-}
-
-section {
-  background: aquamarine;
-  padding: 16px;
-}
-
-footer {
-  height: 30px;
-  border: 2px solid black;
-}
-.container{
-  width: 50%;
-  float: left;
-}
-.red{
+.block_red{
   background-color: red;
-  width: 100px;
-  height: 100px;
-  float: right;
-}
-.green{
-  background-color: green;
-  width: 100px;
-  height: 100px;
+  width: 20%;
+  height: 200px;
   float: left;
 }
-.footer{
-  clear: both;
+.block_green{
+  background-color: green;
+  width: 20%;
+  height: 200px;
+  float: left;
+}
+.block_blue{
+  background-color: blue;
+  width: 20%;
+  height: 200px;
+  float: left
+}
+.block_yellow{
+  background-color: yellow;
+  width: 20%;
+  height: 200px;
+  float: left
+}
+.block_black{
+  background-color: black;
+  width: 20%;
+  height: 200px;
+  float: left
 }
