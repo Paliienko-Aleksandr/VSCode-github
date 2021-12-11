@@ -7,6 +7,7 @@
 .navigation{
   position: relative;
   height: 40px;
+  line-height: 20px;
 }
 .nav-list{
   
@@ -27,7 +28,7 @@ li{
   background-color: aquamarine;
   position: relative;
   left: 50%;
-  top:10%;
+  
 }
 .ear{
   position: absolute;
