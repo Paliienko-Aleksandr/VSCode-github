@@ -7,16 +7,16 @@
 .navigation{
   position: relative;
   height: 40px;
-  line-height: 20px;
+  
 }
 .nav-list{
-  
   bottom: 8px;
   color: white;
 }
 li{
   margin-left: 16px;
   display: inline; 
+  line-height: 20px;
 }
 .content{
   background-color: beige;
