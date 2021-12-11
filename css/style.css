@@ -11,14 +11,15 @@
   height: 40px;
 }
 .nav-list{
+  display: flex;
   height: 40px;
   line-height: 33px;
- 
+ list-style-type: none;
 }
 .nav-item{
-  display: inline;
+  
   color: white;
-  line-height: normal;
+  
  margin-left: 16px;
 }
 .content{
