@@ -22,7 +22,7 @@
 .nav-item{
   display: inline-block;
   color: white;
-  /* margin-left: 16px; */
+  margin-left: 16px;
   line-height: 40px;
   
 }
@@ -37,7 +37,8 @@
   height: 200px;
   background-color: aquamarine;
   top:150px;
-  left:40%;
+  left:50%;
+  right:50%
 }
 .ear{
   width: 40px;
