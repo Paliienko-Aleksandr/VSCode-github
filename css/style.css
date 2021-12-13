@@ -16,12 +16,13 @@
   height: 40px;
   line-height: 33px;
   list-style-type: none;
- 
+  line-height: 35px;
 }
 .nav-item{
   display: inline-block;
   color: white;
   margin-left: 16px;
+  ;
 }
 .content{
   height: 5000px;
