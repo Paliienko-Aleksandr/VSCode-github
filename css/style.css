@@ -8,20 +8,20 @@
   background-color: darkturquoise;
 }
 .navigation{
+  position: relative;
   height: 40px;
 }
 .nav-list{
-  display: flex;
+  position: absolute;
   height: 40px;
   line-height: 33px;
- list-style-type: none;
- align-items: center;
+  list-style-type: none;
+ 
 }
 .nav-item{
-  
+  display: inline-block;
   color: white;
-  
- margin-left: 16px;
+  margin-left: 16px;
 }
 .content{
   height: 5000px;
