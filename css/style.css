@@ -17,12 +17,12 @@
   position: absolute;
   height: 40px;
   list-style-type: none;
-  padding-left: 16px;
+  
 }
 .nav-item{
   display: inline-block;
   color: white;
-  margin-left: 16px;
+  /* margin-left: 16px; */
   line-height: 40px;
   
 }
