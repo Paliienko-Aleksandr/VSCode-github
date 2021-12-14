@@ -8,10 +8,10 @@ h1{
 .articles-list{
   display: flex;
   flex-wrap: wrap;
- ;
+ 
 }
 .article{  
-  flex-basis: 150px;  
+  flex-basis: 180px;  
   margin: 8px;
   padding: 16px;
   background-color: bisque;
