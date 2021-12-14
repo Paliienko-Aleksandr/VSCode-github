@@ -12,7 +12,7 @@ h1{
 }
 .article{
   width: 300px;  
-  flex-basis: 220px; 
+  flex-basis: 221px; 
   margin: 8px;
   padding: 16px;
   background-color: bisque;
