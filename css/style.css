@@ -11,7 +11,7 @@ h1{
  ;
 }
 .article{  
-  flex-basis: 200px;  
+  flex-basis: 150px;  
   margin: 8px;
   padding: 16px;
   background-color: bisque;
