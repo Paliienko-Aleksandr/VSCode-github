@@ -7,14 +7,15 @@ h1{
 }
 .articles-list{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
  
 }
-.article{  
-  flex-basis: min-content;  
+.article{
+  width: 300px;
+  flex-basis:300px;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
   flex-grow: 1;
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
