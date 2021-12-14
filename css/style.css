@@ -3,9 +3,10 @@ div.block {
   margin: 8px;
   display: flex;
   min-width: 100px;
-  min-height: 100px;
-   flex-shrink: 1;
-  flex-grow: 2;
+  height: 100px;
+  flex-shrink: 1;
+  flex-grow: 1;
+
 }
 .container{
   display: flex;
