@@ -1,11 +1,9 @@
-/* *{
-  margin: 0;
-} */
+
 div.block {
   background-color: coral;
   margin: 8px;
   display: flex;
-  min-width: 100px;
+  width: 100px;
   height: 100px;
   flex-shrink: 0;
   flex-grow: 1;
@@ -14,4 +12,5 @@ div.block {
 .container{
  display: flex;
  flex-wrap: wrap;
+ flex-shrink: 1;
 }
