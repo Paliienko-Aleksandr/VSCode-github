@@ -1,23 +1,17 @@
 *{
   box-sizing: border-box;
 }
-.header{
-  display: flex;
+div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
 }
-h1{
-  display: flex; 
-  justify-content: center;
+.container :nth-child(1){
+  display: none;
 }
-.articles-list{
-  display: flex;
-  flex-wrap: wrap; 
- 
+.container :nth-child(2){
+  visibility: hidden;
 }
-.article{
-  flex-basis:300px; 
-   margin: 8px;
-  padding: 16px;
-  background-color: bisque;
-  flex-grow: 1;
-  flex-shrink: 0;
+.container :nth-child(3){
+  display: block;
 }
