@@ -1,17 +1,23 @@
 *{
   box-sizing: border-box;
 }
-div{
+.text{
   position: absolute;
   margin: 16px;
-  border-bottom: 1px dotted black;
+  
 }
 .tooltip{
   position: relative;
+  display: none;
   top:40px;
+}
+.text:hover .tooltip{
+  position: relative;
+  display: block;
+  border-top: 1px dotted black;
   background-color: grey;
-  color:white;
-  border-radius: 4px;
+  color: white;
   padding: 8px;
-  right: 100px;
+  border-radius: 4px;
+  
 }
