@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .header{
   display: flex;
 }
@@ -11,8 +14,8 @@ h1{
  
 }
 .article{
-  flex-basis:220px; 
-  margin: 8px;
+  flex-basis:300px; 
+   margin: 8px;
   padding: 16px;
   background-color: bisque;
   flex-grow: 1;
