@@ -2,12 +2,16 @@
   box-sizing: border-box;
 }
 div{
+  position: absolute;
   margin: 16px;
   border-bottom: 1px dotted black;
 }
 .tooltip{
+  position: relative;
+  top:40px;
   background-color: grey;
   color:white;
   border-radius: 4px;
   padding: 8px;
+  right: 100px;
 }
