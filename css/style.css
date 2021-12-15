@@ -10,8 +10,8 @@
 .tooltip{
   position: absolute;
   display: block;
-   display: none; 
-  top:40px;
+  display: none; 
+  top:25px;
   
 }
 .text:hover .tooltip{
