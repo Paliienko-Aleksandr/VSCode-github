@@ -2,17 +2,19 @@
   box-sizing: border-box;
 }
 .text{
-  position: absolute;
+  position: relative;
   margin: 16px;
-  
+  border-bottom: 1px dotted black;
+  display: inline-block;
 }
 .tooltip{
-  position: relative;
-  display: none;
+  position: absolute;
+  display: block;
+   display: none; 
   top:40px;
+  
 }
 .text:hover .tooltip{
-  position: relative;
   display: block;
   border-top: 1px dotted black;
   background-color: grey;
