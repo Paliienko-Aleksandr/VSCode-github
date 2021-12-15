@@ -1,17 +1,24 @@
 *{
   box-sizing: border-box;
 }
-div > div {
-  width: 100px;
+.articles{
+  display: flex;
+}
+.articles div{
+  width: 150px;
   height: 100px;
-  background: coral;
+  background-color: beige;
+  margin: 16px;
 }
-.container :nth-child(1){
-  display: none;
+.cropped{
+  overflow: hidden;
+  cursor: all-scroll;
 }
-.container :nth-child(2){
-  visibility: hidden;
+.both-scrolls{
+  overflow: scroll;
+  cursor: all-scroll;
 }
-.container :nth-child(3){
-  display: block;
+.vertical-scroll{
+  overflow: auto scroll;
+  cursor: all-scroll;
 }
