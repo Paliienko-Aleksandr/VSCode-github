@@ -9,12 +9,13 @@
   opacity: 0.8;
   font-size: 16px;
   color: white;
-  cursor: pointer;:
+  cursor: pointer;
+  margin: 16px;
 }
 .menu-list{
   margin: 0;
   padding: 0;
-  display: none;
+  display: none; 
   list-style-type: none;
   background-color: lightcyan;
   color: black;
@@ -23,6 +24,7 @@
   top: 50px;
   min-width: 120px;
   z-index: 1;
+  margin-left: -16px;
 }
 .menu-item{
   padding: 16px;
