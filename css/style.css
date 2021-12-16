@@ -1,25 +1,13 @@
 *{
   box-sizing: border-box;
 }
-.text{
-  position: relative;
-  margin: 16px;
-  border-bottom: 1px dotted black;
-  display: inline-block;
+.gallery{
+  display: flex;
 }
-.tooltip{
-  position: absolute;
-  display: block;
-  display: none; 
-  bottom: -40px;
-  
+img{
+  margin: 8px;
+  overflow: auto scroll;
 }
-.text:hover .tooltip{
-  display: block;
-  border-top: 1px dotted black;
-  background-color: grey;
-  color: white;
-  padding: 8px;
-  border-radius: 4px;
-  
+.gallery:hover{
+  cursor: all-scroll;
 }
