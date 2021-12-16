@@ -1,25 +1,16 @@
 *{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
-html{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.list{
+  list-style-type: none;
+  font-size: 1.5em;
 }
-h1{
-  font-size: 74px;
-  width: 50%;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  margin: auto;
+.third{
+  text-decoration: green underline;
 }
-div{
-  height: 200px;
-  background-color: coral;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 200px;
+.second{
+  text-decoration: line-through;
+}
+.first{
+  text-decoration: overline;
 }
