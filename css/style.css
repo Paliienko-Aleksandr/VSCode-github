@@ -4,12 +4,11 @@
   padding: 0;
 }
 html{
- 
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 18px; 
 }
-.section{
-  margin: 32px;
+section{
+  margin:32px;
   
 }
 a{
