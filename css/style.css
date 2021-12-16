@@ -1,14 +1,31 @@
 *{
   box-sizing: border-box;
 }
-.gallery{
-  display: flex;
-  overflow: scroll auto;
+*{
+  margin: 32px;
 }
-.thumb{
-  margin: 8px;
-  
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
-.gallery:hover{
-  cursor: all-scroll;
+a{
+  text-decoration: none;
+}
+h1{
+  word-spacing: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p{
+  line-height: 28px;
+}
+.abbr{
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 80%;
+  text-decoration: underline;
+}
+.translate{
+  color: grey;
 }
