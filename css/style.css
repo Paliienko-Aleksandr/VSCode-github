@@ -12,5 +12,6 @@
   font-weight: 700;
   color: #fff;
   text-align: center;
-  margin-top: 32px;
+  /* margin-top: 32px; */
+ padding: 32px;
 }
