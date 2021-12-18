@@ -4,14 +4,13 @@
   padding: 0;
 } 
  .image-container{
-  margin: 50px auto;
-  text-align: -webkit-center;
+  
  }
 .main-image{
-  display: block;
+  display: inherit;
   max-width: 100%;
   border-radius: 20px;
-  /* margin: 50px auto; */
+  margin: 50px auto;
   
 }
 .gallery{
