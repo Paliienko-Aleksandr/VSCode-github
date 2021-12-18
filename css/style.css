@@ -2,8 +2,7 @@
   box-sizing: border-box;
 }  
  .image-container{
-  margin-top: 50px;
-  margin-bottom: 50px;  
+  margin: 50px auto 50px;  
  }
 .main-image{
   display: block;
@@ -13,9 +12,7 @@
   
 }
 .gallery{
-  display: flex;
-  flex-wrap: wrap;
-  
+  display: flex;  
 }
 figure{
   margin: 16px;
