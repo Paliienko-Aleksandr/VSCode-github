@@ -5,7 +5,7 @@
 } 
  .image-container{
  display: flex;
- margin: 50px auto;
+ margin: 50px ;
  }
 .main-image{
   display: block;
