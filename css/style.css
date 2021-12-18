@@ -3,9 +3,7 @@
   margin: 0;
   padding: 0;
 } 
- .image-container{
-  display: flex;
-} 
+ 
 .main-image{
   display: block;
   max-width: 100%;
