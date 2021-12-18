@@ -2,10 +2,11 @@
   box-sizing:content-box;
 }   */
 .image-container{
-  box-sizing: border-box;
+  
   margin: 50px auto;
 }
 .main-image{
+  box-sizing: border-box;
   display: block;
   max-width: 100%;
   border-radius: 20px;
