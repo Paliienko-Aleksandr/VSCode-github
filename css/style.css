@@ -2,18 +2,16 @@
   box-sizing: border-box;
 } 
  .image-container{
-  max-width: 500px;
-  height: 333px;
-  margin: auto;
+  /* margin: auto; */
   margin-top: 50px;
   margin-bottom: 50px;
- border-radius: 20px;
+  border-radius: 20px;
  }
 .main-image{
   display: block;
   max-width: 100%;
   border-radius: 20px;
-  margin: auto; 
+  margin: auto;
 }
 .gallery{
   display: flex;
