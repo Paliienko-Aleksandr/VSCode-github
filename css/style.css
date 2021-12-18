@@ -1,16 +1,17 @@
  *{
   box-sizing: border-box;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0; 
 } 
  .image-container{
-  
+  margin-top: 50px;
+  margin-bottom: 50px;
  }
 .main-image{
   display: block;
   max-width: 100%;
   border-radius: 20px;
-  margin: 50px auto;
+   margin: auto; 
   
 }
 .gallery{
