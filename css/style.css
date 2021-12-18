@@ -4,16 +4,17 @@
  .image-container{
   margin-top: 50px;
   margin-bottom: 50px;
-  max-width: 100%;
+  
  }
 .main-image{
   display: block;
-  /* max-width: 100%; */
   border-radius: 20px;
   margin: auto;
+  max-width: 100%;
 }
 .gallery{
   display: flex;
+  flex-wrap: wrap;
 }
 figure{
   margin: 16px;
