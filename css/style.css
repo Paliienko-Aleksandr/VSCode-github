@@ -2,7 +2,8 @@
   box-sizing:border-box;
 }
 .image-container{
-  
+   position: fixed; 
+  margin-left: calc(50% - 250px);
 }
 .image{
   display: block;
