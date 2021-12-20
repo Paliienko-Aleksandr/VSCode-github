@@ -9,13 +9,33 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="image-container">
-    <img
-      class="image"
-      src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/hw1/big.jpeg"
-      alt="Forest"
-    />
-    <span class="image-button">Later I'll do something</span>
+  <div class="text_form">
+    <input type="text" name="lastName" value="Emerson">
+  </div>
+  <div class="number_form">
+    <input type="number" name="age" value="17">
+  </div>
+  <div class="check_form">
+    <label>
+    <input type="checkbox" name="agree"> Accept terms and conditions
+  </label>
+  </div>
+  <div class="choose-gender">
+   <label>
+    <input  type="radio" name="gender"> Male
+  </label>
+    <label> 
+      <input class="radio-gender" type="radio" name="gender"> Female
+    </label>
+    <label>
+      <input class="radio-gender" type="radio" name="gender"> Secret
+    </label>
+  </div>
+  <div class="description_text">
+   <textarea name="description" placeholder="Write description"></textarea>
+  </div>
+  <div class="btn">
+    <button type="submit">Submit</button>
   </div>
 </body>
 </html>
