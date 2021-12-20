@@ -2,7 +2,7 @@
   box-sizing:border-box;
 }
 .image-container{
-  
+  display: flex;
 }
 .image{
   display: block;
