@@ -44,5 +44,7 @@
     border-radius: 4px;
     color: #ffffff;
     text-transform: uppercase;
-    
+  }
+  .form-input:invalid:required{
+    border:3px solid #ff0000
   }
