@@ -20,6 +20,7 @@
   text-transform: uppercase;
   text-align: center;
   line-height: 48px;
+  cursor: pointer;
 }
 .image-button:hover{
   opacity: 1;
