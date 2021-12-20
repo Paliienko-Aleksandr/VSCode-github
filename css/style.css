@@ -2,7 +2,7 @@
   box-sizing:border-box;
 }
 .image-container{
-  display: flex;
+  
 }
 .image{
   display: block;
@@ -12,7 +12,7 @@
 }
 .image-button{
   position: absolute;
-  top:calc(50% - 25px);
+  top:calc(50% - 200px);
   left:calc(50% - 100px);
   width: 200px;
   height: 50px;
@@ -22,8 +22,9 @@
   text-transform: uppercase;
   opacity: 0.5;
   text-align: center;
-  line-height: 50px;
+  line-height: 55px;
 }
 .image-button:hover{
+  
   opacity: 1;
 }
