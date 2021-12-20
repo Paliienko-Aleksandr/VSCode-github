@@ -11,14 +11,16 @@
 <body>
   <form>
   <div class="text_form">
-    <input type="text" name="lastName" value="Emerson">
+    <label>Last Name</label>
+    <input type="text" name="lastName" value="Emerson" readonly>
   </div>
   <div class="number_form">
-    <input type="number" name="age" value="17">
+    <label>Age</label>
+    <input type="number" name="age" min="3" max="10" value="17">
   </div>
   <div class="check_form">
     <label>
-    <input type="checkbox" name="agree"> Accept terms and conditions
+    <input type="checkbox" name="agree" disabled> Accept terms and conditions
   </label>
   </div>
   <div class="choose-gender">
@@ -33,7 +35,7 @@
     </label>
   </div>
   <div class="description_text">
-   <textarea name="description" placeholder="Write description..."></textarea>
+   <textarea name="description" maxlength="10" placeholder="Write description..."></textarea>
   </div>
   <div class="btn">
     <button type="submit">Submit</button>
