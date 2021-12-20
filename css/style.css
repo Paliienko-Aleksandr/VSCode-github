@@ -1,9 +1,26 @@
  *{
   box-sizing:border-box;
-}  
-.main-video{
+}
+
+.image{
   display: block;
-  margin: 100px auto;
-   width: 500px;
-  height: 400px; 
+  margin: auto;
+  max-width: 100%;
+}
+.image-button{
+  position: absolute;
+  top:calc(50% - 25px);
+  left:calc(50% - 100px);
+  width: 200px;
+  height: 50px;
+  background-color: #ffe4c4;
+  font-size:12px;
+  font-weight: 700;
+  opacity: 0.5;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 48px;
+}
+.image-button:hover{
+  opacity: 1;
 }
