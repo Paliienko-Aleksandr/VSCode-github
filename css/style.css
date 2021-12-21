@@ -11,18 +11,18 @@ caption{
   margin-bottom: 8px;
 }
 thead{
-  font-weight: 700;
+  /* font-weight: 700; */
   text-align: right;
   background-color: #00ffff;
 }
-td{
+td, th{
   border: 1px solid #000000;
-  /* padding: 4px; */
+  padding: 4px; 
 }
 tr{
   text-align: right;
   line-height: 40px;
-  padding: 4px;
+  
 }
 div{
   overflow-x: auto;
