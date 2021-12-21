@@ -17,11 +17,12 @@ thead{
 }
 td{
   border: 1px solid #000000;
-  margin: 4px;
+  /* padding: 4px; */
 }
 tr{
   text-align: right;
   line-height: 40px;
+  padding: 4px;
 }
 div{
   overflow-x: auto;
@@ -32,4 +33,7 @@ tbody > tr:nth-child(odd){
 tbody > tr:hover{
   background-color: #aaa;
   color: #ffffff;
+}
+tfoot{
+  font-weight: 700;
 }
