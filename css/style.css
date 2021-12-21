@@ -17,7 +17,7 @@ thead{
 }
 td{
   border: 1px solid #000000;
-  padding: 4px;
+  margin: 4px;
 }
 tr{
   text-align: right;
