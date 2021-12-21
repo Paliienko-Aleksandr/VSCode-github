@@ -1,9 +1,19 @@
  *{
   box-sizing:border-box;
 }
-.main-form{
-  margin: 32px;
+table{
+  width: 500px;
+  margin: 16px;
+  border: 1px solid #000000;
+  border-collapse: collapse;
 }
-div{
-  margin: 8px;
+thead{
+  font-weight: 700;
+  text-align: right;
+}
+td{
+  border: 1px solid #000000;
+}
+tr{
+  text-align: right;
 }
