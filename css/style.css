@@ -8,16 +8,18 @@ table{
   border-collapse: collapse;
 }
 caption{
-  margin-bottom: 8px;
+  margin-bottom: 8px; 
+  
 }
 thead{
-  /* font-weight: 700; */
   text-align: right;
   background-color: #00ffff;
 }
 td, th{
   border: 1px solid #000000;
-  padding: 4px; 
+}
+td{
+  padding: 4px;
 }
 tr{
   text-align: right;
