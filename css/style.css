@@ -8,6 +8,7 @@ table{
   margin: 16px;
   border: 1px solid #000000;
   border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
 }
 caption{
   margin-bottom: 8px; 
