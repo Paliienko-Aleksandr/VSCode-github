@@ -1,50 +1,9 @@
  *{
   box-sizing:border-box;
 }
-.page{
-  display: flex;
-  background-color: #ffe4c4;
-  justify-content: center;
-  align-items: center;
-  min-height:600px; 
+.main-form{
+  margin: 32px;
 }
-.login-form{
-  display: block;
-  width: 300px;
-  padding: 16px;
-  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
-  background-color: #00ffff;
-  font-family:monospace;
-  font-size: 16px;
+input{
+  margin: 8px;
 }
-.form-title{
-  text-align: center;
-  text-transform: uppercase;
-}
-  .form-control{
-    margin-bottom: 8px;
-  }
-  .form-label{
-    display: block;
-    margin-bottom: 4px;
-  }
-  .form-input{
-    width: 100%;
-    height: 32px;
-    border-radius: 4px;
-    border: 1px solid #808080;
-    outline: none;
-    padding: 4px;
-  }
-  .submit-button{
-    width: 100%;
-    height: 32px;
-    background-color: #ff7f50;
-    margin-top: 16px;
-    border-radius: 4px;
-    color: #ffffff;
-    text-transform: uppercase;
-  }
-  .form-input:invalid:required{
-    border:3px solid #ff0000
-  }
