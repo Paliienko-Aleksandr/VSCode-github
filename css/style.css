@@ -21,12 +21,12 @@ thead{
 }
 td, th{
   padding-right: 4px;
-  line-height: 39px;
+  text-align: right;
 }
 
 tr{
   height: 40px;
-  text-align: right;  
+   
 }
 div{
   overflow-x: auto;
