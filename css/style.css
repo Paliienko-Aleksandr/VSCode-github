@@ -1,6 +1,6 @@
- *{
+ /* *{
   box-sizing: border-box; 
- }
+ } */
  .icons-horisontal{
    display: flex;
    justify-content: space-around;
