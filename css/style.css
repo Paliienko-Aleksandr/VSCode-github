@@ -25,6 +25,7 @@
   width: 32px;
   height: 32px;
   vertical-align: middle;
+  fill:#ffffff
 }
 .btn:hover{
   color: #008b8b;
