@@ -1,36 +1,25 @@
  *{
   box-sizing: border-box; 
  }
-.button-first, .button-second{
-  margin: 64px;
+ .icons-horisontal{
+   display: flex;
+   justify-content: space-around;
+ }
+ .fa-battery-full{
+   font-size: 16px;
+ 
 }
-.btn{
-  margin: 64px;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  background-color: #ff7f50;
-  color: white;
-  border-radius: 4px;
-  text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
+.fa-battery-three-quarters{
+  font-size: 32px;
 }
-.bird-icon{
-  width: 32px;
-  height: 32px;
-  vertical-align: middle;
-  fill:#ffffff;
+.fa-battery-half{
+  font-size: 64px;
 }
-.btn:hover{
-  color: #008b8b;
+.fa-battery-quarter{
+  font-size: 128px;
 }
-.bird-icon:hover{
- fill: #008000;
+.fa-battery-empty{
+  font-size: 265px;
 }
-
 
 
