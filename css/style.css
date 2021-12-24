@@ -1,6 +1,6 @@
- /* *{
+ *{
   box-sizing: border-box; 
- } */
+ } 
  .icons-horisontal{
    display: flex;
    justify-content: space-around;
@@ -19,7 +19,7 @@
   font-size: 128px;
 }
 .fa-battery-empty{
-  font-size: 265px;
+  font-size: 256px;
 }
 
 
