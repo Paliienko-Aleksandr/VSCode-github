@@ -7,6 +7,8 @@
 }
 .spinner{
   margin: auto;
+}
+.spinner-text{
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
@@ -27,13 +29,13 @@
 
 @keyframes blinking{
   0%{
-    opacity: 1;
-  }
-  50%{
     opacity: 0;
   }
-  100%{
+  50%{
     opacity: 1;
+  }
+  100%{
+    opacity: 0;
   }
 }
 @keyframes spin{
