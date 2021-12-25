@@ -1,37 +1,56 @@
  *{
   box-sizing: border-box; 
  } 
-.square{
-  width: 100px;
-  height: 100px;
-  background-color: #ff7f50;
-  position: absolute;
-  animation: move 4s;
-  animation-iteration-count: 2;
-  animation-direction: alternate;
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50vh;
 }
-@keyframes move{
-  0%{
-    top: 0px;
-    left:0px;
+.spinner{
+  
+}
+.spinner-text{
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  animation: blinking 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.rect{
+  position: absolute;
+  width: 10px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #000000;
+   animation: blinking 2s,moving 2s; 
+  animation-iteration-count: infinite;
+  margin-left: 47vw;
+}
+
+
+
+
+
+
+ @keyframes moving {
+  from {
+    left: 0;
+    opacity: 1;
   }
-  25%{
-    top: 0px;
-    left:300px;
-    background-color: cornflowerblue;
+  to {
+    left: 70px;
   }
-  50%{
-    left: 300px;
-    top: 300px;
-    background-color: aqua;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
   }
-  75%{
-    left:0px;
-    top: 300px;
-    background-color: yellowgreen;
+  50% {
+    opacity: 1;
   }
-  100%{
-    left:0px;
-    top:0px;
+  100% {
+    opacity: 0;
   }
 }
