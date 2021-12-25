@@ -4,10 +4,9 @@
 .container{
   display: flex;
   justify-content: center;
-  margin-top: 50vh;
 }
 .spinner{
-  
+  margin-top: 50vh;
 }
 .spinner-text{
   font-family: monospace;
@@ -23,7 +22,7 @@
   height: 4px;
   border-radius: 2px;
   background-color: #000000;
-   animation: blinking 2s,moving 2s; 
+  animation: blinking 2s,moving 2s; 
   animation-iteration-count: infinite;
   margin-left: 47vw;
 }
