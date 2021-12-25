@@ -12,12 +12,26 @@
   text-align: center;
   opacity: 0.5;
   line-height: 100px;
-  transition-property: width 2s, opacity 0.5;
-  transition-duration: 2s;
+  transition-property: width 2s, opacity 0.5s;
+   transition-duration: 2s; 
 }
 .rect:hover{
   width: 100%;
   opacity: 1;
-
+}
+.linear{
+  transition-timing-function: linear;
+}
+.ease{
+  transition-timing-function: ease;
+}
+.ease-in{
+  transition-timing-function: ease-in;
+}
+.ease-out{
+  transition-timing-function: ease-out;
+}
+.ease-in-out{
+  transition-timing-function: ease-in-out;
 }
 
