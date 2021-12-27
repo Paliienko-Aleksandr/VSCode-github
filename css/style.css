@@ -1,10 +1,10 @@
   *{
   box-sizing: border-box;
- } 
+ }
+ .main{
+  min-height: 100vh;
+  margin: 8px;
+}
 .main-image{
   max-width: 100%;
-}
-main{
-  display: flex;
-  min-height: 100vh;
 }
