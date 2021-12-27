@@ -27,7 +27,7 @@
   }
   .main{
     display: flex;
-    font-size: 1.25em;
+    /* font-size: 1.25em; */
     flex: 1 0 auto;
   }
   .navigation, .section, .news{
@@ -54,6 +54,7 @@
     }
   .section{
     width: 60%;
+    font-size: 1.25em;
   }
   .news{
     width: 20%;
