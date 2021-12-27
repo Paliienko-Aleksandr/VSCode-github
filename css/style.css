@@ -44,14 +44,14 @@
       background-color: #808080;
       height: 2em;
       margin-bottom: 0.5em;
-       overflow: hidden;
+      overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
       line-height: 2em;
     }
     .nav-list-link{
       color:white;
-      padding: 0 0.8em;
+      padding: 0 0.5em;
     }
   .section{
     width: 60%;
