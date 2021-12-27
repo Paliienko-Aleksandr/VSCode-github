@@ -56,11 +56,14 @@
     width: 60%;
     font-size: 1.25em;
   }
+  .units-list{
+    line-height: 1.75em;
+  }
   .news{
     width: 20%;
   }
   .nav-list{
-    line-height: 1.75em;
+    /* line-height: 1.75em; */
   }
   .section__header{
     font-size: 5vw;
