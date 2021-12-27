@@ -36,8 +36,8 @@
   .navigation{
     width: 20%;
     padding: 0;
-    
     }
+    
     .nav-list-item{
       list-style-type: none;
       background-color: #808080;
@@ -47,6 +47,7 @@
        overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
+      line-height: 2em;
     }
     .nav-list-link{
       color:white;
@@ -63,7 +64,7 @@
     width: 20%;
   }
   .nav-list{
-    /* line-height: 1.75em; */
+    padding: 0;
   }
   .section__header{
     font-size: 5vw;
