@@ -1,21 +1,61 @@
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 html{
-  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
-.font-in-px{
-  font-size: 27px;
+a{
+  text-decoration: none;
 }
-.font-in-em{
-  font-size: 1.5em;
+.header{
+  height: 3em;
+  padding: 0 1em;
+  display: flex;
+  background-color: #eee;
 }
-.font-in-vw{
-  font-size: 5vw;
+.header-btn{
+  padding: 0;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  background-color: transparent;
+  align-items: center;
+  visibility: hidden;
 }
-.font-in-percents{
-  font-size: 150%;
+.navigation{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
 }
-.font-in-rem{
-  font-size: 1.5rem;
+.nav-list{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+.nav-list-item{
+  list-style-type: none;
+  background-color: #808080;
+  line-height: 2em;
+  height: 2em;
+  margin: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #ffffff;
+}
+.nav-list-link{
+  color: #ffffff;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  line-height: 1em;
+}
+@media screen and (max-width:600px){
+  .header-btn{
+    visibility: visible;
+  }
+  .navigation{
+    visibility: hidden;
+  }
 }
