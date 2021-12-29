@@ -26,7 +26,7 @@ a{
 }
 .navigation{
   /* display: flex; */
-  flex-direction: column;
+  /* flex-direction: column; */
   width: 20%;
   padding: 0.5em; 
 }
@@ -37,6 +37,7 @@ a{
    
 }
 .nav-list-item{
+  width: 100%;
   list-style-type: none;
   background-color: #808080;
   line-height: 2em;
@@ -50,7 +51,7 @@ a{
 .nav-list-link{
   color: #ffffff;
   padding-left: 0.5em;
-  /* padding-right: 0.5em; */
+  padding-right: 0.5em;
   line-height: 1em;
 }
 @media screen and (max-width:600px){
