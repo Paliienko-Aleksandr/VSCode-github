@@ -25,19 +25,25 @@ span{
   background-color: #006400;
 }
 .news{
-  width: 33.3%;
+ 
   background-color: #0ff;
 }
 @media screen and (min-width:600px) {
   .separate{
-    width: 66.6%;
     display: flex;
     flex-grow: 2; 
   }
-}
+  
+  }
+
 @media screen and (min-width:900px){
   .content{
-    
     display: flex;
   }
+  .news{
+    width: 33.3%;
+}
+.separate{
+  width: 66.6%;
+}
 }
