@@ -25,16 +25,10 @@ a{
   visibility: hidden;
 }
 .navigation{
-  /* display: flex; */
-  /* flex-direction: column; */
   width: 20%;
-  /* padding: 0.5em;  */
-}
+  }
 .nav-list{
-  /* display: flex;
-  flex-direction: column; */
-   /* padding: 0.5em;  */
-   
+    padding: 0.5em;
 }
 .nav-list-item{
   width: 100%;
