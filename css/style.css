@@ -30,8 +30,8 @@ a{
   width: 20%;
 }
 .nav-list{
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   padding: 0.5em;
 }
 .nav-list-item{
