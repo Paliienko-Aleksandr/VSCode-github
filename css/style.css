@@ -32,7 +32,7 @@ a{
 .nav-list{
   /* display: flex;
   flex-direction: column; */
-  /* padding: 0.5em; */
+   padding: 0.5em; 
 }
 .nav-list-item{
   list-style-type: none;
