@@ -1,10 +1,29 @@
-@import 'variables.scss';
-@import 'header.scss';
+@import "breakpoints";
 
-*{
+* {
   box-sizing: border-box;
 }
-html{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: $base-font-size;
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  @include small {
+    background-color: #ff7f50;
+  }
+  @include medium {
+    background-color: #8a2be2;
+  }
+  @include large {
+    background-color: #a61;
+  }
+  @include extra {
+    background-color: #c47;
+  }
 }
