@@ -1,24 +1,24 @@
-$small_screen:600px;
+$small_screen:599px;
 $medium_screen:899px;
 $large_screen:1199px;
 $extra_large-screen:1200;
 
 
 @mixin small {
-  @media screen and (max-width: $small_screen - 1) {
+  @media screen and (max-width: $small_screen) {
     @content;
     
   }
 }
 @mixin medium {
-  @media screen and (min-width: $medium_screen) {
+  @media screen and (min-width: $small_screen+1) {
     @content;
     
   }
 }
 
 @mixin large {
-  @media screen and (min-width: $large_screen) {
+  @media screen and (min-width: $medium_screen+1) {
     @content;
     
   }

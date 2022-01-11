@@ -8,9 +8,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container{
-  display: flex;
-}
+
 .square {
   width: 100px;
   height: 100px;
@@ -21,12 +19,12 @@ body {
     background-color: #ff7f50;
   }
 }
-@media screen and (min-width: 899px) {
+@media screen and (min-width: 600px) {
   .square {
     background-color: #8a2be2;
   }
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 900px) {
   .square {
     background-color: #a61;
   }
@@ -34,11 +32,6 @@ body {
 @media screen and (min-width: 1200) {
   .square {
     background-color: #c47;
-  }
-}
-@media screen and (orientation: portrait) {
-  .container{
-    flex-direction: column;
   }
 }
 
