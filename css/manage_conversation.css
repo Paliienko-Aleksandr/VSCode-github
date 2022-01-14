@@ -1,0 +1,61 @@
+.manage_conversations{
+  display: flex;
+  max-width: 1400px;
+  min-height: 790px;
+  background-color: #FCF0E3;
+}
+.manage_conversations_description{
+  padding-top: 115px;
+  padding-right: 99px
+}
+.manage_conversations_wheel{
+  height: 510px;
+  margin: 142px 192px 138px 193px;
+}
+.manage_conversations_wheel_description{
+  padding-top: 28px;
+  text-align: center;
+  padding-left: 40px;
+}
+.team_inbox_text{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: #F1592B;
+  padding-bottom: 24px;
+}
+.manage_conversations_head{
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #2B292D;
+  padding-bottom: 30px;
+}
+.manage_conversations_head_description{
+  font-size: 24px;
+  line-height: 34px;
+  color: #2B292D;
+  padding-bottom: 44px;
+}
+.review_customer{
+  background-color: #fff;
+  padding: 30px 30px 0px 30px
+}
+.review_customer_text{
+  font-size: 20px;
+  line-height: 28px;
+  color: #2B292D;
+}
+.easy_to_implement{
+  font-weight: 700;
+}
+.avatar{
+  padding-right: 11px;
+}
+.customer{
+  display: flex;
+  background-color: #fff;
+  padding: 26px 0px 28px 30px;
+  border-bottom: 4px solid #0185D0;
+}

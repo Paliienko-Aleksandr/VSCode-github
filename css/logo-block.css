@@ -1,0 +1,15 @@
+.logos_block{
+  min-height: 75px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 106px;
+}
+.logos_list{
+  display: flex;
+  list-style-type: none;
+}
+.img_logo{
+  filter: brightness(0);
+}
