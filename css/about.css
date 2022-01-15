@@ -9,12 +9,12 @@
 }
 .what_about{
   width: 555px;
-  height: 102px;
+  min-height: 102px;
   margin-right: 29px;
 }
 .for_whom{
   width: 555px;
-  height: 102px;
+  min-height: 102px;
 }
 .about_text{
   font-weight: bold;
