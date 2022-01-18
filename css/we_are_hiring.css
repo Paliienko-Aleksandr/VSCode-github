@@ -1,0 +1,72 @@
+.hiring {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  width: 100%;
+  padding-top: 106px;
+  padding-bottom: 110px;
+}
+.hiring_wrapper {
+  margin: auto;
+  max-width: 555px;
+  text-align: center;
+}
+.we_are_hiring {
+  padding-bottom: 20px;
+}
+.about_company_buttons {
+  margin-top: 28px;
+  margin-bottom: 110px;
+}
+.hiring_get_started {
+  width: 247px;
+  height: 48px;
+  cursor: pointer;
+}
+.job_vacancies {
+  margin: auto;
+}
+.vacancy {
+  display: flex;
+  width: 750px;
+  height: 81px;
+  margin-bottom: 20px;
+  color: #2b292d;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+}
+.position {
+  display: flex;
+  width: 408px;
+  height: 81px;
+  margin-left: 25px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  align-items: center;
+}
+.location {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 24px;
+}
+.vacancy_black_arrow {
+  width: 7px;
+  height: 12px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
+  margin-left: 33px;
+}
+.ny_arrow {
+  margin-left: 40px;
+}
+.vacancy:hover {
+  background: #3141c5;
+  box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15),
+    0px 11px 55px rgba(0, 0, 0, 0.07);
+  transition: 0.3s;
+  color: #fff;
+}
+

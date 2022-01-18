@@ -1,0 +1,68 @@
+.set_of_startup_tools{
+  display: flex;
+  max-width: 1400px;
+  min-height: 355px;
+}
+.set_of_startup_tools_wrapper{
+  /* display: flex; */
+  width: 1140px;
+  margin: 0px 130px;
+  
+}
+.trust_our_company_text{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #3142C6;
+  text-align: center;
+  padding-bottom: 28px;
+}
+.startup_tools{
+  max-width: 755px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 34px;
+}
+.review_client{
+  text-align: center;
+}
+.baloon{
+  position: relative;
+}
+.baloon_image{
+  position: absolute;
+  left: 910px;
+  bottom: -70px;
+}
+.review_client_name{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2B292D;
+}
+.review_client_position{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(43, 41, 45, 0.6);
+}
+.set_of_startup_tools_dots{
+  display: flex;
+  justify-content: center;
+  padding-top: 38px;
+  
+}
+.dot{
+  width: 8px;
+  height: 8px;
+  background-color: #2B292D;
+  opacity: 0.2;
+  margin-right: 13px;
+  border-radius: 50%;
+}
+.dot_selected{
+  width: 8px;
+  height: 8px;
+  margin-right: 13px;
+  border-radius: 50%;
+  background-color: #3142C5;
+}
