@@ -28,7 +28,7 @@
 }
 .vacancy {
   display: flex;
-  width: 750px;
+  width: 55vw;
   height: 81px;
   margin-bottom: 20px;
   color: #2b292d;
@@ -38,7 +38,7 @@
 }
 .position {
   display: flex;
-  width: 408px;
+  width: 60%;
   height: 81px;
   margin-left: 25px;
   margin-right: 20px;
@@ -48,6 +48,7 @@
   align-items: center;
 }
 .location {
+  width: 40%;
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -57,6 +58,8 @@
   width: 7px;
   height: 12px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-left: 33px;
 }
 .ny_arrow {

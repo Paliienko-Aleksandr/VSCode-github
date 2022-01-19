@@ -1,52 +1,52 @@
-.comunicate{
+.comunicate {
   max-width: 1400px;
 }
-.comunicate_main_section{
+.comunicate_main_section {
   display: flex;
   max-width: 1140px;
   margin: 0px 193px 0px 130px;
 }
-.comunicate_wrapper{
+.comunicate_wrapper {
   margin-right: 193px;
 }
-.comunicate_better{
+.comunicate_better {
   padding-top: 123px;
 }
-.comunicate_better_text{
+.comunicate_better_text {
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
-  color: #0189D1;
+  color: #0189d1;
   margin-bottom: 24px;
 }
-.three_products_text{
+.three_products_text {
   padding-bottom: 39px;
 }
-.hand_with_phone{
+.hand_with_phone {
   margin-top: 110px;
 }
-.comunicate_info{
+.comunicate_info {
   display: flex;
 }
-.comunicate_info_part{
+.comunicate_info_part {
   flex: 1;
   margin-right: 30px;
 }
-.comunicate_info{
+.comunicate_info {
   margin: 68px 130px 110px 130px;
 }
-.bold_text{
+.bold_text {
   font-weight: 700;
 }
-.comunicate_info_text{
+.comunicate_info_text {
   font-size: 18px;
   line-height: 26px;
-  color: #2B292D;
+  color: #2b292d;
 }
-.info_link{
-  margin-top: 10px; 
+.info_link {
+  margin-top: 10px;
 }
-.comunicate_info_link{
+.comunicate_info_link {
   text-decoration: underline;
-  color: #0185D0;
+  color: #0185d0;
 }

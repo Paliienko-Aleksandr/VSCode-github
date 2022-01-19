@@ -53,5 +53,6 @@ h1 {
   margin-top: 84px;
 }
 .main-icon_image {
-  min-width: 300px;
+  max-width: 100%;
+  min-width: 320px;
 }

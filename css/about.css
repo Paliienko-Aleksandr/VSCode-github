@@ -1,28 +1,28 @@
-.about{
+.about {
   max-width: 1400px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 77px;
   padding-bottom: 76px;
-  background-color: #F4F5F7;
+  background-color: #f4f5f7;
 }
-.what_about{
+.what_about {
   width: 555px;
   min-height: 102px;
   margin-right: 29px;
 }
-.for_whom{
+.for_whom {
   width: 555px;
   min-height: 102px;
 }
-.about_text{
+.about_text {
   font-weight: bold;
   font-size: 22px;
   line-height: 32px;
   text-align: left;
 }
-.about_text_description{
+.about_text_description {
   font-size: 22px;
   line-height: 32px;
 }
