@@ -34,6 +34,7 @@
 }
 .comunicate_info {
   margin: 68px 130px 110px 130px;
+  flex-wrap: wrap;
 }
 .bold_text {
   font-weight: 700;

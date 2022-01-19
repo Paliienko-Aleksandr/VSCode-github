@@ -1,0 +1,55 @@
+.footer{
+  max-width: 1400px;
+  padding-top: 44px;
+}
+.footer_wrapper{
+  max-width: 74.6vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.foundation{
+  width: 24.5vw;
+  margin-right: 126px;
+ 
+}
+.foundation_wrapper{
+  display: flex;
+  padding-bottom: 30px;
+}
+.foundation_logo_text{
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(43, 41, 45, 0.6);
+  padding-bottom: 25px;
+}
+.logo_icon_wrapper{
+  display: flex;
+}
+.logo_icon{
+  margin-right: 10px;
+}
+.product{
+  flex: 1;
+  margin-top: 8px;
+}
+.company{
+  flex: 1;
+  margin-top: 8px;
+}
+.product_company_text{
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  color: #2B292D;
+  padding-bottom: 18px;
+}
+.product_list{
+  list-style-type: none;
+}
+.product_list_item{
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(43, 41, 45, 0.6);
+}
