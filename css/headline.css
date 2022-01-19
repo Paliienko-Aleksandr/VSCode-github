@@ -1,11 +1,11 @@
 .headline {
-  max-width: 1140px;
+  max-width: 88vw;
   margin: auto;
   display: flex;
 }
 .main-text {
   position: relative;
-  width: 754px;
+  max-width: 754px;
   z-index: 1;
 }
 h1 {
