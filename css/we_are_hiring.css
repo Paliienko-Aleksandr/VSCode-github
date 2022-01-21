@@ -26,6 +26,10 @@
 .job_vacancies {
   margin: auto;
 }
+.position_location_wrapper{
+  display: flex;
+  width: 90%;
+}
 .vacancy {
   display: flex;
   width: 55vw;
@@ -38,7 +42,7 @@
 }
 .position {
   display: flex;
-  width: 60%;
+  width: 90%;
   height: 81px;
   margin-left: 25px;
   margin-right: 20px;
@@ -48,28 +52,27 @@
   align-items: center;
 }
 .location {
-  width: 40%;
+  width: 45%;
   display: flex;
   align-items: center;
   font-size: 18px;
   line-height: 24px;
 }
 .vacancy_black_arrow {
+  margin: auto;
   width: 7px;
   height: 12px;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-left: 33px;
+  margin-right: 20px;
 }
-.ny_arrow {
-  margin-left: 40px;
-}
+
 .vacancy:hover {
   background: #3141c5;
   box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15),
     0px 11px 55px rgba(0, 0, 0, 0.07);
   transition: 0.3s;
   color: #fff;
-}
+} 
+
 

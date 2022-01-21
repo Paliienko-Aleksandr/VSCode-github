@@ -36,6 +36,8 @@
      <link rel="stylesheet" href="css/start_trial.css">
      <link rel="stylesheet" href="css/footer.css">
      <link rel="stylesheet" href="css/media-queries.css">
+     <link rel="stylesheet" href="css/acquire_customers_for_480px.css">
+     <link rel="stylesheet" href="css/burger_menu.css">
   </head>
   <body>
     <div class="wrapper">
@@ -94,6 +96,7 @@
         
       </div>
       <section class="about">
+        <div class="about_wrapper">
         <div class="what_about">
           <h3 class="about_text">What is it about?</h3>
           <p class="about_text_description">
@@ -106,6 +109,7 @@
             Startups, small companies and teams, entrepreneurs and web developers.
           </p>
         </div>
+      </div>
       </section>
 
       <!-- Logo block -->
@@ -131,6 +135,63 @@
             </div>
           </ul>
         </section>
+
+          <!-- Section acquire customer for max-width 480px -->
+
+        <section class="acquire_customer">
+          <div class="acquire_customer_wrapper">
+          <p class="acquire_customer_text">
+            Acquire Customers
+          </p>
+          <h2 class="find_leads">
+            Easily find leads and customers
+          </h2>
+          <p class="send_email">
+            Send one-off and automated email, push, and in-app messages to people. Create better stories.
+          </p>
+          <picture class="acquire_customer_image">
+            <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/tip-asquire-customer.png" alt="Bird in cage" class="bird_in_cage">
+          </picture>
+        </div>
+        </section>
+
+          <!-- Engage with your audience for max-width 480px -->
+
+          <section class="engage_users">
+            <div class="engage_users_wrapper">
+            <p class="engage_user_text">
+              Engage Users
+            </p>
+            <h2 class="engage_audience">
+              Engage with your audience
+            </h2>
+            <p class="send_email">
+              Send one-off and automated email, push, and in-app messages to people. Create better stories.
+            </p>
+            <picture class="engage_users_image">
+              <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/tip-engage-user.png" alt="Window" class="tip_engage_users">
+            </picture>
+          </div>
+          </section>
+  
+          <!-- Support for max-widh 480px -->
+
+          <section class="support">
+            <div class="support_wrapper">
+            <p class="support_text">
+              Support
+            </p>
+            <h2 class="support_customer_experiences">
+              The best customer experiences
+            </h2>
+            <p class="send_email">
+              A beautifully simple system for tracking, prioritizing, and solving customer support tickets.
+            </p>
+            <picture class="support_image">
+              <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/tip-support.png" alt="Screen" class="tip_support">
+            </picture>
+          </div>
+          </section>
 
         <!-- Features section -->
 
@@ -222,7 +283,7 @@
         </div>
           <div class="hand_with_phone">
             <picture>
-              <img srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/hand-with-phone.png" alt="Hand_with_phone">
+              <img class="hand_with_phone_image" srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/hand-with-phone.png" alt="Hand with phone">
               <p class="picture_description hand_with_phone_text">
                 A better way to acquire new users
               </p>
@@ -279,25 +340,29 @@
             </div>
           </div>
           <div class="cards_with_logo">
-            <a href="#" class="cards_with_logo_link"> <div class="card_logo developers">
+            <a href="#" class="cards_with_logo_link"> 
+              <div class="card_logo developers">
               <div class="cards_with_logo_icon">
                 <img class="cards_with_logo_image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png" alt="Face logo">
                 <p class="cards_with_logo_text">Developers</p>
               </div>
             </div></a>
-            <a href="#" class="cards_with_logo_link"><div class="card_logo entertainment">
+            <a href="#" class="cards_with_logo_link">
+              <div class="card_logo entertainment">
               <div class="cards_with_logo_icon">
                 <img class="cards_with_logo_image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png" alt="TV logo">
                 <p class="cards_with_logo_text">Entertainment</p>
               </div>
             </div></a>
-            <a href="#" class="cards_with_logo_link"><div class="card_logo Athletes">
+            <a href="#" class="cards_with_logo_link">
+              <div class="card_logo Athletes">
               <div class="cards_with_logo_icon">
                 <img class="cards_with_logo_image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png" alt="Athletes logo">
                 <p class="cards_with_logo_text">Athletes</p>
               </div>
             </div></a>
-            <a class="cards_with_logo_link" href="#"><div class="card_logo creators">
+            <a class="cards_with_logo_link" href="#">
+              <div class="card_logo creators">
               <div class="cards_with_logo_icon">
                 <img class="cards_with_logo_image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png" alt="Creators logo">
                 <p class="cards_with_logo_text">Creators</p>
@@ -384,35 +449,44 @@
         </div>
         <div class="job_vacancies">
           <div class="vacancy">
+            <div class="position_location_wrapper">
             <div class="position">
               <p class="position_text">Front-End Developer</p>
             </div>
             <div class="location">
               <p class="location_text">Los Angeles / Remote</p>
+            </div>
+              </div>
               <div class="vacancy_black_arrow">
+                <img class="black_arrow_right" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png" alt="Right arrow">
               </div>
             </div>
-          </div>
           <div class="vacancy">
-            <div class="vacancy">
+              <div class="position_location_wrapper">
               <div class="position">
                 <p class="position_text">Community Manager</p>
               </div>
               <div class="location">
                 <p class="location_text">New York / Full-Time</p>
-                <div class="ny_arrow vacancy_black_arrow"></div>
               </div>
-            </div>
+              </div>
+              <div class="ny_arrow vacancy_black_arrow">
+                <img class="black_arrow_right" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png" alt="Right arrow">
+              </div>
           </div>
-          <div class="vacancy"><div class="vacancy">
+          <div class="vacancy">
+              <div class="position_location_wrapper">
             <div class="position">
               <p class="position_text">UX/UI Designer</p>
             </div>
             <div class="location">
               <p class="location_text">New York / Full-Time</p>
-              <div class="ny_arrow vacancy_black_arrow"></div>
             </div>
-          </div></div>
+            </div>
+            <div class="ny_arrow vacancy_black_arrow">
+              <img class="black_arrow_right" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png" alt="Right arrow">
+            </div>
+        </div>
         </div>
       </section>
 
@@ -442,7 +516,7 @@
                     required
                   />
                 </div>
-                <button class="btn header_button comunicate_button ">Get Started</button>
+                <button class="btn comunicate_button ">Get Started</button>
           </div>
           <p class="terms_of_use">
             Free 14-day trial · Easy setup · Cancel any time. Check out <a href="#" class="term_of_use_link">Terms of Use</a>.
@@ -469,19 +543,26 @@
               <div class="logo_description">Startup landing template</div>
             </div>
           </div>
+            <div class="foundation_logo_text_for480px">
+              Foundation Startup landing template
+            </div>
             <div class="foundation_logo_text">
               Foundation is a website template for startups and small teams. It helps to build a website in no time.
             </div>
             <div class="logo_icon_wrapper">
               <div class="logo_icon app_store">
-               <a href="https://www.apple.com/ua/app-store/" target="blank" class="app_link"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png" alt="Google play" class="google_play"></a>
+               <a href="https://www.apple.com/ua/app-store/" target="blank" class="app_link">
+                 <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png" alt="Google play" class="google_play"></a>
               </div>
               <div class="logo_icon app_store">
                 <a href="https://play.google.com/store?gl=UA&utm_source=emea_Med&utm_medium=hasem&utm_content=Oct2020&utm_campaign=Evergreen&pcampaignid=MKT-EDR-emea-ua-1001280-Med-hasem-py-Evergreen-Oct2020-Text_Search_BKWS%7CONSEM_kwid_43700007031591568&gclid=Cj0KCQiAip-PBhDVARIsAPP2xc34EJ4ZpBqjsDaDXCedsC-wJBw8KbsvfpZixKMrC8K3m_dz8cCD9XYaAncBEALw_wcB&gclsrc=aw.ds" target="blank" 
-                class="google link"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png" alt="App store" class="app_store_logo"></a>
+                class="google link">
+                <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png" alt="App store" class="app_store_logo"></a>
               </div>
             </div>
+            <hr class="blue_line_for_480px">
             </div>
+            <div class="list_wrapper">
             <div class="product">
               <p class="product_company_text">Product</p>
               <ul class="product_list">
@@ -502,6 +583,7 @@
                 
               </ul>
             </div>
+          </div>
           </div>
         </div>
       </footer>

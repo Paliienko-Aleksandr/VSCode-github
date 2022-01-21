@@ -17,6 +17,7 @@
   display: flex;
   padding-bottom: 30px;
 }
+
 .foundation_logo_text{
   font-size: 18px;
   line-height: 26px;
@@ -29,12 +30,14 @@
 .logo_icon{
   margin-right: 10px;
 }
+.list_wrapper{
+  display: flex;
+}
 .product{
-  flex: 1;
   margin-top: 8px;
+  margin-right: 82px;
 }
 .company{
-  flex: 1;
   margin-top: 8px;
 }
 .product_company_text{
