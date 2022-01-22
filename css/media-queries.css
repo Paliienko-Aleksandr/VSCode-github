@@ -4,7 +4,7 @@
   .top-section {
     padding-top: 0px;
   }
-  .header{
+  .header {
     background-color: #fff;
   }
   .logo_image {
@@ -80,43 +80,40 @@
     width: 33vw;
     height: 94px;
     box-shadow: inset -1px 0px 0px rgba(200, 200, 200, 0.5);
-    border-bottom: 1px solid #E3E3E3;
+    border-bottom: 1px solid #e3e3e3;
   }
   .img_logo {
-   width: 75%;
+    width: 75%;
   }
-  .nyt{
+  .nyt {
     width: 65%;
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 15%;
   }
-  .forbes{
+  .forbes {
     width: 66%;
     margin-left: 15%;
     margin-top: 30%;
   }
-  .apple{
+  .apple {
     width: 36%;
     margin-left: 26%;
     margin-top: 15%;
   }
-  .mashable{
+  .mashable {
     width: 88%;
     margin-left: 5%;
     margin-top: 28%;
-    
   }
-  .wsj{
+  .wsj {
     width: 60%;
     margin-left: 19%;
     margin-top: 19%;
-    
   }
-  .google{
+  .google {
     width: 80%;
     margin-left: 7%;
     margin-top: 24%;
-    
   }
 
   .features_section {
@@ -161,7 +158,7 @@
 
   /* Engage user */
 
-  .engage_users_wrapper {
+  .engage_user_wrapper {
     margin: 40px 15px 40px 15px;
     display: flex;
     flex-direction: column;
@@ -182,7 +179,7 @@
     color: #2b292d;
     padding-bottom: 13px;
   }
-  .engage_users_image {
+  .engage_user_image {
     max-width: 100%;
   }
 
@@ -404,7 +401,7 @@
 
   /* Footer */
 
-  .foundation{
+  .foundation {
     width: 80vw;
   }
   .foundation_wrapper {
@@ -412,26 +409,26 @@
     flex-direction: column;
     align-items: center;
   }
-  .foundation_logo_text{
+  .foundation_logo_text {
     display: none;
   }
-  .foundation_logo_text_for480px{
+  .foundation_logo_text_for480px {
     font-size: 18px;
     line-height: 25px;
     text-align: center;
   }
-  .list_wrapper{
+  .list_wrapper {
     flex-direction: column;
   }
-  .logo_icon_wrapper{
+  .logo_icon_wrapper {
     justify-content: center;
     padding: 30px 30px 40px 30px;
   }
-  .blue_line_for_480px{
-    background-color: #E3E3E3;
+  .blue_line_for_480px {
+    background-color: #e3e3e3;
   }
-  .product_list{
-    width: 100VW;
+  .product_list {
+    width: 100vw;
   }
 }
 
@@ -439,19 +436,19 @@
   .acquire_customer {
     display: none;
   }
-  .engage_users {
+  .engage_user {
     display: none;
   }
   .support {
     display: none;
   }
-  .foundation_logo_text_for480px{
+  .foundation_logo_text_for480px {
     display: none;
   }
-  .blue_line_for_480px{
+  .blue_line_for_480px {
     display: none;
   }
-  .hamburger-menu{
+  .hamburger-menu {
     visibility: hidden;
   }
 }

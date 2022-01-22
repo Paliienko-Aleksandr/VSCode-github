@@ -4,10 +4,8 @@
   min-height: 355px;
 }
 .set_of_startup_tools_wrapper{
-  /* display: flex; */
   width: 1140px;
   margin: 0px 130px;
-  
 }
 .trust_our_company_text{
   font-weight: bold;
@@ -49,7 +47,6 @@
   display: flex;
   justify-content: center;
   padding-top: 38px;
-  
 }
 .dot{
   width: 8px;
