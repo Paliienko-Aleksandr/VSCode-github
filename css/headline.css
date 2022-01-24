@@ -49,8 +49,9 @@ h1 {
 }
 .main-icon {
   position: absolute;
-  left: 553px;
+  left: 39.5vw;
   margin-top: 84px;
+  margin-right:22px;
 }
 .main-icon_image {
   max-width: 100%;

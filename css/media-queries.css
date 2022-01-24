@@ -35,6 +35,9 @@
     display: flex;
     flex-direction: column;
   }
+  .headline_text{
+    margin-top: 35px;
+  }
   .main-text,
   .headline_text_description {
     max-width: 100%;
@@ -43,10 +46,15 @@
   .main-icon {
     position: static;
   }
+  .main-icon{
+    width: 100%;
+    margin: auto;
+  }
   .main-icon_image {
     max-width: 100vw;
     margin-left: -7%;
-    margin-top: -70px;
+    /* margin-top: -70px; */
+    padding: 33px 0px;
   }
   .h1_headline {
     font-size: 50px;
@@ -433,6 +441,9 @@
 }
 
 @media screen and (min-width: 481px) {
+  .burger_icon{
+    display: none;
+  }
   .acquire_customer {
     display: none;
   }
@@ -448,7 +459,5 @@
   .blue_line_for_480px {
     display: none;
   }
-  .hamburger-menu {
-    visibility: hidden;
-  }
+  
 }
